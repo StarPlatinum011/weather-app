@@ -7,9 +7,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p class="city">pokhara</p>
-    <h1 class="main-title"></h1>
+    <div class="container">
+        <form id="dataForm">
+        <div class="search-container" >
+            <input id="uInput" class="inputAdv" placeholder="Type Location...">
+            <button type="submit" class="search-btn">Find</button>
+        </div>
+    </form>
 
-    <script src="script.js"></script>
+            
+        <div class="display-container">
+            <div class="nameContent">
+                <h2 id="name"></h2>
+                <h2 class="time"></h2>
+            </div>
+            <div class="box temp">
+                <img src="assets/Temprature.png" alt="temprature">
+                <div>
+                    <h2>Temprature</h2>
+                    <h3 class="temprature"></h3>
+                </div>
+                
+            </div>
+            <div class="box couldy">
+                <img src="assets/cloudy.png" alt="cloud">
+                <div>
+                    <h2>Condition</h2>
+                    <h3 id="cloudy"></h3>
+                </div>
+            </div>
+            <div class="box feels">
+                <img src="assets/feelsLike.png" alt="feelslike">
+                <div>
+                    <h2>Feels Like</h2>
+                    <h3 class="feelsLike"></h3>
+                </div>
+            </div>
+            <div class="box humidity">
+                <img src="assets/Humidity.png" alt="humidity">
+                <div>
+                    <h2>Humidity</h2>
+                    <h3 id="humidity"></h3>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <script src="script.js">
+    </script>
 </body>
 </html>
